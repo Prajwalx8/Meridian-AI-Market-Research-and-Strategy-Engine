@@ -539,7 +539,6 @@ Doing market research properly is slow and expensive. Getting a credible answer 
 
 This is slow, doesn't scale, and the sourcing trail is often lost by the time findings reach a final report. Meridian's problem statement: **give anyone the ability to get a sourced, structured market analysis on demand, without the cost or turnaround time of a traditional research process.**
 
-> *Draft based on the project's architecture — replace with your team's exact framing if it differs.*
 
 <br/>
 
@@ -553,7 +552,6 @@ Specifically, the product aims to:
 - Attach a verifiable citation trail to every claim in the final report
 - Present findings through a clean, decision-maker-friendly interface (Report / Evidence / Sources tabs)
 
-> *Draft — adjust to match your team's original goal statement.*
 
 <br/>
 
@@ -660,13 +658,11 @@ Meridian is designed so a report is never presented as more reliable than the ev
 | **Citation linking** | The Linker agent's sole job is verifying that every claim in the final report resolves to real, extracted evidence — an unsupported claim doesn't make it into the linked report. |
 | **Offline dev mode** | `mock_search.py` lets the Research stage run on canned data during development, so pipeline logic can be tested without live API calls or cost. |
 
-> If your team has measured specific evaluation numbers (citation accuracy on a test set, hallucination rate, manual QA pass rate), add them here.
 
 <br/>
 
 ## Performance Metrics
 
-> Template — replace with your team's measured numbers.
 
 | Metric | Value |
 |---|---|
@@ -702,7 +698,6 @@ Meridian is designed so a report is never presented as more reliable than the ev
 - **Sequential task execution** — research tasks from the Planner are processed one after another rather than in parallel, adding to total runtime on multi-task briefs.
 - **`memory_records` is unused today** — the `pgvector` table exists in the schema for future semantic recall but isn't yet read from or written to by the pipeline.
 
-> Adjust this list to match what your team has actually observed in testing.
 
 <br/>
 
