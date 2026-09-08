@@ -682,15 +682,15 @@ Meridian is designed so a report is never presented as more reliable than the ev
 
 <div align="center">
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-Visit_App-2e7d32?style=for-the-badge&labelColor=1a1a1a)](https://meridian-indol-psi.vercel.app/)
-[![Source Code](https://img.shields.io/badge/Source-GitHub-181717?style=for-the-badge&logo=github&labelColor=1a1a1a)](https://github.com/DeepakChauhan33/Meridian-Strategy-Engine-)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Visit_App-2e7d32?style=for-the-badge&labelColor=1a1a1a)](https://meridian-frontend-mu.vercel.app/)
+[![Source Code](https://img.shields.io/badge/Source-GitHub-181717?style=for-the-badge&logo=github&labelColor=1a1a1a)](https://github.com/Prajwalx8/Meridian-AI-Market-Research-and-Strategy-Engine)
 
 </div>
 
 | Link | URL |
 |---|---|
-| **Live App** | https://meridian-indol-psi.vercel.app/ |
-| **Source Code** | https://github.com/DeepakChauhan33/Meridian-Strategy-Engine- |
+| **Live App** | https://meridian-frontend-mu.vercel.app/ |
+| **Source Code** | https://github.com/Prajwalx8/Meridian-AI-Market-Research-and-Strategy-Engine |
 
 <br/>
 
